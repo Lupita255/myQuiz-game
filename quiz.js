@@ -50,7 +50,7 @@ class Quiz {
 
                 display_answers+=30
                 textSize(14)
-                text(allContestants[plr].name+" : "+allContestants[plr].option, 250, display_answers)
+                text(allContestants[plr].name+" : "+allContestants[plr].answer, 250, display_answers)
             }
         }
     }
